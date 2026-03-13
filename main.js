@@ -144,6 +144,7 @@ function addShiftRecord(textFile, shiftObj) {
     return obj;
 }
 
+// --- Functions 6-10: Bonus/active hours tracking and pay calculations ---
 function setBonus(textFile, driverID, date, newValue) {
     try {
         let content = fs.readFileSync(textFile, "utf8");
